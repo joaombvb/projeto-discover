@@ -34,7 +34,6 @@ body * {
   left: initial;
 }
 
-
 #switch button {
   width: 32px;
   height: 32px;
@@ -157,4 +156,15 @@ footer {
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.2);
   --switch-bg-url: url(./assets/sun.svg);
+}
+
+/*media queries*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assests/bg-desktop-light.jpg);
+  }
 }
